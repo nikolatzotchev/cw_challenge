@@ -21,3 +21,10 @@ Add one task
 Update one task
 
 `curl -X PUT localhost:8080/tasks/{id} -H 'Content-type:application/json' -d '{json-content-to-update}'`
+
+## starting the application
+`./gradlew clean build`
+
+`docker build -t myapp .`
+
+`docker compose up`
